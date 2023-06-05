@@ -1,8 +1,5 @@
-import React, { FC, createContext, useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import React, { createContext, useState } from 'react';
 import { ITask, TaskContextType } from "../Interfaces";
-
-const id: string = uuidv4(); 
 
 type TodoContextProviderProps = {
     children : React.ReactNode

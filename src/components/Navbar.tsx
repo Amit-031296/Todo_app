@@ -1,4 +1,4 @@
-import React, { FC, useState, useContext } from 'react';
+import { FC } from 'react';
 
 const Navbar: FC = () => {
     return ( 
